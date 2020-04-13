@@ -13,5 +13,6 @@ class Song
   def create
     s = Song.new
     s.save
+    s
   end
 end
