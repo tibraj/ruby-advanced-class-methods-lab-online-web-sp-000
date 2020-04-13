@@ -11,14 +11,12 @@ class Song
   end
 
   def Song.create
-    s = Song.new
+    song = Song.new
     s.save
     s
   end
 
   def Song.new_by_name(song_name)
-    s = Song.new.name
-    s = song_name
-    s
+
   end
 end
