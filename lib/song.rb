@@ -12,7 +12,7 @@ class Song
 
   def Song.create
     song = Song.new
-    s.save
+    song.save
     s
   end
 
